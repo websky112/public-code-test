@@ -1,0 +1,25 @@
+@import "./styles/index.scss";
+
+body {
+  margin: 0;
+  background-color: $col-bg;
+  color: $col-primary-text;
+  min-height: 100vh;
+  font-family: "Roboto";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+}
+
+code {
+  font-family: "Roboto";
+}

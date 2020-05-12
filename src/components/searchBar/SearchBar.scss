@@ -1,0 +1,12 @@
+@import "../../styles/index.scss";
+
+.input-search {
+  input {
+    color: $col-primary-text;
+  }
+
+  .MuiOutlinedInput-input {
+    padding: 10px 14px;
+    padding-left: 0px;
+  }
+}

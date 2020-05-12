@@ -1,0 +1,24 @@
+@import "../../styles/index.scss";
+
+.sidebar-container {
+  flex: 1;
+  background-color: $col-primary;
+  margin-top: 10px;
+  overflow: auto;
+  padding: 40px 10px 0px 10px;
+  position: relative;
+
+  .sidebar-header {
+    position: absolute;
+    height: 40px;
+    width: calc(100% - 20px);
+    top: 0px;
+    left: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr 1.5fr;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    color: $col-dark-grey;
+  }
+}

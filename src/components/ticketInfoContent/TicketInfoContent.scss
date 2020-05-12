@@ -1,0 +1,100 @@
+@import "../../styles/index.scss";
+
+.content-header {
+  font-size: 11px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .number {
+    color: $col-primary-text;
+  }
+}
+
+.card-container {
+  border: 2px solid $col-bg;
+  border-radius: 3px;
+  margin-bottom: 10px;
+
+  .card-header {
+    background-color: $col-bg;
+    color: $col-white;
+    font-size: 14px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+  }
+
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px;
+    padding-bottom: 15px;
+    font-weight: 500;
+    font-size: 14px;
+    color: $col-primary-text;
+
+    .owner-info {
+      display: flex;
+      margin-top: 15px;
+      align-items: center;
+
+      .avatar {
+        width: 40px;
+        border-radius: 50%;
+      }
+
+      &-detail {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+
+        .speciality {
+          font-size: 13px;
+        }
+      }
+    }
+
+    .label {
+      color: $col-dark-grey;
+      margin-top: 25px;
+      margin-bottom: 5px;
+    }
+
+    .btn-status {
+      padding: 5px 15px;
+      width: fit-content;
+      border-radius: 3px;
+      border: 1px solid $col-bg;
+      font-weight: 500;
+
+      .label-asd {
+        color: $col-yellow;
+      }
+
+      .label-com {
+        color: $col-green;
+      }
+
+      .label-una {
+        color: $col-dark-grey;
+      }
+    }
+
+    .location-group {
+      display: flex;
+
+      .btn-location {
+        padding: 5px 15px;
+        margin-right: 10px;
+        width: 50px;
+        text-align: center;
+        border-radius: 3px;
+        border: 1px solid $col-bg;
+        font-weight: 500;
+      }
+    }
+  }
+}
